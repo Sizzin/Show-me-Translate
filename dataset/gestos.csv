@@ -1,0 +1,12 @@
+frase,ajuda_gesto1,ajuda_gesto2,alergia_gesto1,alergia_gesto2,banheiro_gesto1,banheiro_gesto3,bom_dia_gesto1,bom_dia_gesto2,bom_dia_gesto3,desculpa_gesto1,parada,enjoo_gesto1,enjoo_gesto2,estou_mal_gesto1,estou_mal_gesto2,frase9_gesto1,frase9_gesto2,meu_nome_e_gesto1,meu_nome_e_gesto2,por_favor_gesto1
+Preciso de ajuda,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Tenho Alergia,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Onde fica o banheiro,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Bom dia, tudo bem?",0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0
+Desculpa,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+parada,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Estou enjoado,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0
+Estou passando mal,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0
+Vim visitar,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0
+Meu nome é,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0
+Por favor,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1
