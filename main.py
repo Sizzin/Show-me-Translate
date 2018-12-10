@@ -1,8 +1,10 @@
-from frase_predict import chama_classificacao, classifica_gestos
+from frase_predict import classifica_gestos
 from model_training import classifica_imagem
+from frame_capture import frame_capture
 
 if __name__ == '__main__':
     print('Iniciando...')
-    lista_classificacao = chama_classificacao()
+    nome_video = input('Digite o nome do vídeo: ')
+    lista_classificacao = frame_capture(nome_video)
     result = classifica_gestos(lista_classificacao)
     print('Resultado: ' +str(result[0]))

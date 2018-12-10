@@ -3,24 +3,6 @@ import pandas as pd
 from model_training import classifica_imagem
 from frame_capture import frame_capture
 
-# Percorre todas as imagens na pasta 'imgs' e, uma por uma,
-# verifica qual é o gesto atrelado à elas
-# Junta todos esses resultados e retorna uma lista
-def chama_classificacao():
-    # Nome do vídeo sem extensão (precisa ser mp4)
-    nome_video = input('Digite o nome do vídeo: ')
-    frame_capture(nome_video)
-    # Percorre o diretório onde estão os frames extraídos do vídeo
-    lista_imagens = os.listdir('./imgs')
-    lista_classificacao = []
-    for imagem in lista_imagens:
-        resultado = classifica_imagem('./imgs/'+imagem)
-        # Ignora quando o resultado é 'parada' porque isso ainda não foi implementado
-        if resultado != 'parada':
-            lista_classificacao.append(resultado)
-    
-    return lista_classificacao
-
 # Faz uma classificação bayesiana de todos os gestos computados
 # para dizer qual é a frase dita
 def classifica_gestos(lista_classificacao):
