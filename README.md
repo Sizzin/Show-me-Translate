@@ -2,7 +2,7 @@
 
 Projeto campeão da 9ª Edição do [Juntos na TI](https://www.facebook.com/JuntosnaTI/) realizado na Cognizant, nos dias 8 e 9 de Dezembro/2018.
 
-Show me Translate é um tradutor da Linguagem Brasileira de Sinais que lê arquivos de vídeo, faz o reconhecimento dos sinais e traduz para o português. 
+Show me Translate é um tradutor da Língua Brasileira de Sinais que lê arquivos de vídeo, faz o reconhecimento dos sinais e traduz para o português. 
 
 ### Pré-requisitos
 * [Python 3.5+](https://www.python.org/downloads/)
