@@ -12,3 +12,5 @@ Show me Translate é um tradutor da Língua Brasileira de Sinais que lê arquivo
 * [cv2](https://pypi.org/project/opencv-python/) 
 * [Tensorflow](https://www.tensorflow.org)
 * [Pillow](https://pillow.readthedocs.io/)
+
+![Classificação por frames](https://raw.githubusercontent.com/Sizzin/Show-me-Translate/master/antes_depois.png "Classificação por frames")
